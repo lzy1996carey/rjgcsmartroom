@@ -1,0 +1,16 @@
+#ok img{
+	width: 960px;
+	height: 462px;
+}
+#ok li:nth-child(1){
+	left:195px;
+	top: 220px;
+}
+#ok li:nth-child(2){
+	left:350px;
+	top: 170px;
+}
+#ok li:nth-child(3){
+	left:600px;
+	top: 150px;
+}

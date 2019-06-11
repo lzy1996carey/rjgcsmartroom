@@ -1,0 +1,228 @@
+*{margin: 0;padding: 0;font-family: Arial}
+body{background-color: #000;}
+li{list-style: none;}
+a{display: inline-block;text-decoration: none;}
+#center2{
+	width: 345px;
+	height: 760px;
+	border-top: 15px solid #666666;
+	border-left: 15px solid #666666;
+	border-right: 15px solid #BABABA;
+	border-bottom: 15px solid #BABABA;
+	background-color: #E9E9E9;
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-khtml-border-radius: 30px;
+	-webkit-border-radius: 30px; 
+	margin-top: 100px;
+}
+.show{
+	width: 313px;
+	height: 248px;
+	margin: 40px auto;
+	border: 1px solid #000;
+	background-color: #929292;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	position: relative;
+}
+.show li{
+	position: absolute;
+	text-align: center;
+	font-size: 60px;
+	color: #444444;
+}
+.show li img{
+	width: auto;
+	height: 60%;
+	margin-top: 20%;
+}
+.show li:nth-child(4) img{
+	margin-top: 12%;
+}
+.show li sup{
+	font-size: 40px;
+	font-weight: 100;
+}
+.show li:nth-child(1){
+	width: 220px;
+	height: 160px;
+	line-height: 160px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	left: 0;
+	top: 0;
+}
+.show li:nth-child(2),.show li:nth-child(3){
+	width: 92px;
+	height: 80px;
+	border-bottom: 1px solid #000;
+	right: 0;
+}
+.show li:nth-child(3){
+	top: 80px;
+}
+.show li:nth-child(4),.show li:nth-child(5){
+	width: 156px;
+	height: 88px;
+	border-right: 1px solid #000;
+	left: 0;
+	bottom: 0;
+}
+.show li:nth-child(5){
+	border-right: none;
+	left: 160px;
+	line-height: 88px;
+}
+.control{
+	width: 100%;
+	height: 380px;
+	position: relative;
+	margin-top: 10px;
+}
+.control li{
+	width: 94px;
+	height: 70px;
+	position: absolute;
+}
+.control li span{
+	display: block;
+	width: 90px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #8D8080;
+}
+.control li img{
+	height: 96%;
+	margin-left:22%; 
+	margin-top: 2%;
+	width: auto;
+}
+.control li div{
+	width: 90px;
+	height: 50px;
+	border-radius: 28px;
+	-moz-border-radius: 28px;
+	-khtml-border-radius: 28px;
+	-webkit-border-radius: 28px; 
+	background-color: #CECECE;
+	cursor: pointer;
+	border-top: 3px solid #EEEEEE;
+	border-left: 3px solid #EEEEEE;
+	border-bottom: 3px solid #9A9A9A;
+	border-right: 3px solid #9A9A9A;
+}
+.control li:nth-child(1){
+	left: 20px;
+}
+.control li:nth-child(1) span{
+	color: #f00;
+}
+.control li:nth-child(1) div{
+	width: 64px;
+	height: 64px;
+	margin-left: 13px;
+	border-radius: 35px;
+	-moz-border-radius: 35px;
+	-khtml-border-radius: 35px;
+	-webkit-border-radius: 35px; 
+}
+.control li:nth-child(1) div img{
+	width: 60%;
+	height: 60%;
+	margin: 20% 0 0 20%;
+}
+.control li:nth-child(2){
+	left: 145px;
+}
+.control li:nth-child(2) div{
+	width: 0;
+	height: 0;
+	margin-left: 13px;
+	border-left: 32px solid transparent;
+	border-right: 32px solid transparent;
+	border-bottom: 50px solid #353535;
+	border-top: none;
+	background-color: #E9E9E9;
+	border-radius: 0
+}
+.control li:nth-child(3){
+	left: 240px;
+}
+.control li:nth-child(3) div{
+	width: 0;
+	height: 0;
+	margin-left: 13px;
+	border-left: 32px solid transparent;
+	border-right: 32px solid transparent;
+	border-top: 50px solid #353535;
+	border-bottom: none;
+	background-color: #E9E9E9;
+	border-radius: 0px;
+}
+.control li:nth-child(4){
+	top: 120px;
+	left: 60px;
+}
+.control li:nth-child(5){
+	top: 120px;
+	right: 60px;
+}
+.control li:nth-child(6){
+	top: 200px;
+	left: 60px;
+}
+.control li:nth-child(7){
+	top: 200px;
+	right: 60px;
+}
+.control li:nth-child(8){
+	top: 280px;
+	left: 60px;
+}
+.block{
+	width: 345px;
+	height:340px;
+	border-top:3px solid #9A9A9A;
+	border-left: 3px solid #9A9A9A;
+	border-right: 3px solid #EEEEEE;
+	border-top: 3px solid #EEEEEE;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	background-color: #D1D1D1;
+	position: absolute;
+	top: 538px;
+	left: 12px;
+}
+.block a{
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 50px auto;
+	background-color: #6D6D6D;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); 	
+	-moz-transform:rotate(45deg); 	
+	-webkit-transform:rotate(45deg); 
+	-o-transform:rotate(45deg); 
+	box-shadow: -2px -2px 2px #6D6D6D,
+			2px 2px 2px #ccc;
+}
+.selected{
+	box-shadow:2px 2px 2px #ccc;
+}
+.clic{
+	box-shadow:2px 2px 0 #ccc,
+			-2px -2px 0 #ccc;
+}
